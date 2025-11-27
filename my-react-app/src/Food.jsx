@@ -6,7 +6,7 @@ function Food(){
         <ul>
             <li>Watermelon</li>
             <li>{food1}</li>
-            <li>{food2}</li>
+            <li>{food2.toLowerCase()}</li>
         </ul>
 
     );
