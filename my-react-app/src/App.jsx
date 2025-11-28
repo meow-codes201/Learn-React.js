@@ -6,6 +6,7 @@ import Student from "./Student";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
 import Button from "./Button";
+import ProfilePicture from "./ProfilePicture";
 function App() {
 //   const fruits = [{id:1,name:'apple',calories:95},
 //                 {id:2,name:'orange',calories:"45"},
@@ -24,6 +25,8 @@ function App() {
 return(
 <>
 
+{/* <ProfilePicture></ProfilePicture> */}
+{/* <Button></Button> */}
 
 
 
