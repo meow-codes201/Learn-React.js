@@ -9,7 +9,35 @@ import Button from "./Button";
 import ProfilePicture from "./ProfilePicture";
 import Counter from "./Counter";
 import MyComponent from "./MyComponent";
+import ColorPicker from "./colorPicker";
+import UpdaterFunction from "./updaterFunction";
+import UpdateObjects from "./UpdateObjects";
 function App() {
+return(
+<>
+<UpdateObjects></UpdateObjects>
+{/* <UpdaterFunction></UpdaterFunction> */}
+{/* <ColorPicker></ColorPicker> */}
+</>
+);
+  
+}
+
+export default App
+
+
+// {/* <MyComponent></MyComponent> */}
+// {/* <Counter></Counter> */}
+// {/* <ProfilePicture></ProfilePicture> */}
+// {/* <Button></Button> */}
+//  {/* {fruits.length>0?<List items={fruits} category="Fruits"></List>:null};
+//     {veg.length>0&&<List items={veg} category="Vegetables"></List>} */}
+//     {/* <UserGreeting isLoggedIn={true} username="Omnis"></UserGreeting> */}
+//     {/* <Student name="Spongebob" age={30} isStudent={true}></Student>
+//     <Student name='Patrick' age={42} isStudent={false}></Student>
+//     <Student name="Squidward" age={50} isStudent= {false}></Student>
+//     <Student name="Sandy" age={27} isStudent={true}></Student> */}
+
 //   const fruits = [{id:1,name:'apple',calories:95},
 //                 {id:2,name:'orange',calories:"45"},
 //                 {id:3,name:'banana',calories:105},
@@ -22,35 +50,3 @@ function App() {
 //                 {id:9,name:'corn',calories:63},
 //                 {id:10,name:'broccoli',calories:50}
 // ];
-
-
-return(
-<>
-
-<MyComponent></MyComponent>
-
-{/* <Counter></Counter> */}
-
-{/* <ProfilePicture></ProfilePicture> */}
-{/* <Button></Button> */}
-
-
-
-
-
-
-
-  {/* {fruits.length>0?<List items={fruits} category="Fruits"></List>:null};
-    {veg.length>0&&<List items={veg} category="Vegetables"></List>} */}
-    {/* <UserGreeting isLoggedIn={true} username="Omnis"></UserGreeting> */}
-    {/* <Student name="Spongebob" age={30} isStudent={true}></Student>
-    <Student name='Patrick' age={42} isStudent={false}></Student>
-    <Student name="Squidward" age={50} isStudent= {false}></Student>
-    <Student name="Sandy" age={27} isStudent={true}></Student> */}
-
-</>
-);
-  
-}
-
-export default App
