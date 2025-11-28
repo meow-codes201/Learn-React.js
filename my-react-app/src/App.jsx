@@ -8,6 +8,7 @@ import List from "./List";
 import Button from "./Button";
 import ProfilePicture from "./ProfilePicture";
 import Counter from "./Counter";
+import MyComponent from "./MyComponent";
 function App() {
 //   const fruits = [{id:1,name:'apple',calories:95},
 //                 {id:2,name:'orange',calories:"45"},
@@ -25,7 +26,10 @@ function App() {
 
 return(
 <>
-<Counter></Counter>
+
+<MyComponent></MyComponent>
+
+{/* <Counter></Counter> */}
 
 {/* <ProfilePicture></ProfilePicture> */}
 {/* <Button></Button> */}
