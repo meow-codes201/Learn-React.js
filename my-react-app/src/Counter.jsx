@@ -1,12 +1,13 @@
 import React, {use, useState} from "react"
+import './Counter.css'
 function Counter(){
 
     const [count,setCount] = useState(0);
     const increment = () =>{
-        satisfies(count++);
+        setCount(count+1);
     }
     const decrement = () =>{
-        setCount(count--);
+        setCount(count-1);
     }
     const reset = () =>{
         setCount(0);
@@ -15,9 +16,9 @@ function Counter(){
         <>
             <div className="counter-container">
             <p className="count-display">{count}</p> 
-            <button className="dec" onClick={decrement}>Decrement</button>
-            <button className="reset" onClick={reset}>Reset</button>   
-            <button onClick={increment} className="inc">Increment</button>
+            <button className="counter-button" onClick={decrement}>Decrement</button>
+            <button className="counter-button" onClick={reset}>Reset</button>   
+            <button onClick={increment} className="counter-button">Increment</button>
             </div>        
         
         
