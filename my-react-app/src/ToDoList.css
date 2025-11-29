@@ -34,10 +34,7 @@ background-color: hsl(10, 90%, 50%);
 .delete-btn:hover{
 background-color: hsl(10, 90%, 40%);
 }
-.text{
 
-
-}
 .move{
 background-color: hsl(207, 90%, 64%);
 }
