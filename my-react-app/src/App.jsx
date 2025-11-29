@@ -14,12 +14,13 @@ import UpdaterFunction from "./updaterFunction";
 import UpdateObjects from "./UpdateObjects";
 import UpdateArrays from "./UpdateArrays";
 import ArrayOfObjects from "./ArrayOfObjects";
+import ToDoList from "./ToDoList";
 function App() {
 return(
 <>
-<ArrayOfObjects></ArrayOfObjects>
+<ToDoList></ToDoList>
 
-
+{/* <ArrayOfObjects></ArrayOfObjects> */}
 {/* <UpdateArrays></UpdateArrays> */}
 {/* <UpdateObjects></UpdateObjects> */}
 {/* <UpdaterFunction></UpdaterFunction> */}
