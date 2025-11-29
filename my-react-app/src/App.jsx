@@ -22,11 +22,12 @@ import CompopentA from "./CompopentA";
 // import CompopentB from "./CompopentB";
 // import CompopentC from "./CompopentC";
 // import CompopentD from "./CompopentD";
+import Ref from "./Ref";
 function App() {
 return(
 <>
-
-<CompopentA></CompopentA>
+<Ref></Ref>
+{/* <CompopentA></CompopentA> */}
 {/* <DigitalClock></DigitalClock> */}
 {/* <MyEffectHook></MyEffectHook> */}
 {/* <UseEffectHook></UseEffectHook> */}
