@@ -13,13 +13,18 @@ import ColorPicker from "./colorPicker";
 import UpdaterFunction from "./updaterFunction";
 import UpdateObjects from "./UpdateObjects";
 import UpdateArrays from "./UpdateArrays";
+import ArrayOfObjects from "./ArrayOfObjects";
 function App() {
 return(
 <>
-<UpdateArrays></UpdateArrays>
+<ArrayOfObjects></ArrayOfObjects>
+
+
+{/* <UpdateArrays></UpdateArrays> */}
 {/* <UpdateObjects></UpdateObjects> */}
 {/* <UpdaterFunction></UpdaterFunction> */}
 {/* <ColorPicker></ColorPicker> */}
+
 </>
 );
   
