@@ -15,11 +15,14 @@ import UpdateObjects from "./UpdateObjects";
 import UpdateArrays from "./UpdateArrays";
 import ArrayOfObjects from "./ArrayOfObjects";
 import ToDoList from "./ToDoList";
+import UseEffectHook from "./useEffectHook";
 function App() {
 return(
 <>
-<ToDoList></ToDoList>
 
+<UseEffectHook></UseEffectHook>
+
+{/* <ToDoList></ToDoList> */}
 {/* <ArrayOfObjects></ArrayOfObjects> */}
 {/* <UpdateArrays></UpdateArrays> */}
 {/* <UpdateObjects></UpdateObjects> */}

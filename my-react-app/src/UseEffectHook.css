@@ -1,0 +1,13 @@
+body{
+    background-color: white;
+}
+button{
+    background-color: lightgray;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0;
+}
+p{
+    font-size: 2rem;
+    font-weight: bold;
+}
