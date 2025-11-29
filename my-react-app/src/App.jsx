@@ -17,10 +17,13 @@ import ArrayOfObjects from "./ArrayOfObjects";
 import ToDoList from "./ToDoList";
 import UseEffectHook from "./useEffectHook";
 import MyEffectHook from "./MyEffectHook";
+import DigitalClock from "./DigitalClock";
+import ContextHook from "./ContextHook";
 function App() {
 return(
 <>
-<MyEffectHook></MyEffectHook>
+{/* <DigitalClock></DigitalClock> */}
+{/* <MyEffectHook></MyEffectHook> */}
 {/* <UseEffectHook></UseEffectHook> */}
 {/* <ToDoList></ToDoList> */}
 {/* <ArrayOfObjects></ArrayOfObjects> */}
