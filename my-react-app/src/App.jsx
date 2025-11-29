@@ -18,10 +18,15 @@ import ToDoList from "./ToDoList";
 import UseEffectHook from "./useEffectHook";
 import MyEffectHook from "./MyEffectHook";
 import DigitalClock from "./DigitalClock";
-import ContextHook from "./ContextHook";
+import CompopentA from "./CompopentA";
+// import CompopentB from "./CompopentB";
+// import CompopentC from "./CompopentC";
+// import CompopentD from "./CompopentD";
 function App() {
 return(
 <>
+
+<CompopentA></CompopentA>
 {/* <DigitalClock></DigitalClock> */}
 {/* <MyEffectHook></MyEffectHook> */}
 {/* <UseEffectHook></UseEffectHook> */}
