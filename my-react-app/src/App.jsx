@@ -12,10 +12,12 @@ import MyComponent from "./MyComponent";
 import ColorPicker from "./colorPicker";
 import UpdaterFunction from "./updaterFunction";
 import UpdateObjects from "./UpdateObjects";
+import UpdateArrays from "./UpdateArrays";
 function App() {
 return(
 <>
-<UpdateObjects></UpdateObjects>
+<UpdateArrays></UpdateArrays>
+{/* <UpdateObjects></UpdateObjects> */}
 {/* <UpdaterFunction></UpdaterFunction> */}
 {/* <ColorPicker></ColorPicker> */}
 </>
