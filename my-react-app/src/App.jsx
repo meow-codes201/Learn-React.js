@@ -16,12 +16,12 @@ import UpdateArrays from "./UpdateArrays";
 import ArrayOfObjects from "./ArrayOfObjects";
 import ToDoList from "./ToDoList";
 import UseEffectHook from "./useEffectHook";
+import MyEffectHook from "./MyEffectHook";
 function App() {
 return(
 <>
-
-<UseEffectHook></UseEffectHook>
-
+<MyEffectHook></MyEffectHook>
+{/* <UseEffectHook></UseEffectHook> */}
 {/* <ToDoList></ToDoList> */}
 {/* <ArrayOfObjects></ArrayOfObjects> */}
 {/* <UpdateArrays></UpdateArrays> */}
