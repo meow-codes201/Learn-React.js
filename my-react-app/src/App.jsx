@@ -1,12 +1,9 @@
-import MyFirstComponent from "./MyFirstComponent";
+// import MyFirstComponent from "./MyFirstComponent";
+import ReactFacts from "./ReactFacts";
 function App() {
 return(
 <>
-
-<MyFirstComponent></MyFirstComponent>
-<MyFirstComponent></MyFirstComponent>
-<MyFirstComponent></MyFirstComponent>
-<MyFirstComponent></MyFirstComponent>
+<ReactFacts></ReactFacts>
 
 </>
 );
