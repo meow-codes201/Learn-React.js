@@ -19,12 +19,13 @@ import UseEffectHook from "./useEffectHook";
 import MyEffectHook from "./MyEffectHook";
 import DigitalClock from "./DigitalClock";
 import CompopentA from "./CompopentA";
-
+import Stopwatch from "./Stopwatch";
 import Ref from "./Ref";
 function App() {
 return(
 <>
-<Ref></Ref>
+<Stopwatch></Stopwatch>
+{/* <Ref></Ref> */}
 {/* <CompopentA></CompopentA> */}
 {/* <DigitalClock></DigitalClock> */}
 {/* <MyEffectHook></MyEffectHook> */}
