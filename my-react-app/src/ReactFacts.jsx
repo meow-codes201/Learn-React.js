@@ -4,6 +4,7 @@ function ReactFacts(){
 const link = "./assets./ChatGPT Image Nov 29, 2025, 07_29_36 PM.png";
 return(
     <>
+    
 <img src={picLink} alt="react-logo" width={150} />
 
 <h1>This is React</h1>

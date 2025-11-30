@@ -1,10 +1,11 @@
 // import MyFirstComponent from "./MyFirstComponent";
 import ReactFacts from "./ReactFacts";
+import Excitement from "./Excitement";
 function App() {
 return(
 <>
-<ReactFacts></ReactFacts>
 
+<Excitement></Excitement>
 </>
 );
 }
