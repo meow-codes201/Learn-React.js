@@ -7,7 +7,7 @@ useEffect(()=>{
     
 })
 function handleClick(){
-    console.log(ref.current);
+    console.log(ref.current); 
     ref.current =ref.current + 1;
     
 }
