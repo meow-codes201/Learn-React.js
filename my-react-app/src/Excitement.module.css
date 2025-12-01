@@ -1,0 +1,33 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    
+
+}
+.nav-list li{
+
+    margin-right: 10px;
+    font-size: 2.5rem;
+    margin-left: 10px;
+
+}
+.react-logo{
+    width: 280px;
+}
+
+.my-ol{
+    display: block;
+    margin: 15px;
+    
+}
+.my-ol li{
+    font-size: 4rem;
+    text-decoration: underline;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
