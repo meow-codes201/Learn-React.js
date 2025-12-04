@@ -1,4 +1,5 @@
-body{
+.myDiv{
+    margin: 0;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #27292c;
@@ -7,4 +8,37 @@ body{
 }
 h1{
     margin-top:30px ;
+}
+.myNav{
+    display: flex;
+    align-items: center;   
+}
+.myNav > img{
+    width: 200px;
+    margin-right: 20px;
+    height: 100%;
+}
+.myNav > span{
+    color: #61dafb;
+    font-size: 3rem;
+    font-weight: bold;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-bottom: 10px; */
+}
+
+.myUl > li::marker{
+    color: #61dafb;
+    /* position: relative; */
+    font-size: 2rem;
+
+}
+.rl1{
+width: 400px;
+opacity: 0.3;
+filter: grayscale(100%);
+/* position: absolute;
+margin-right: 100px; */
+/* clip:rect(0,100px,200px,0) */
+
 }
