@@ -10,27 +10,28 @@ import fuji from "./TravelJournal/Mt._Fuji.jpg"
 import PracticeMap from "./PracticeMap";
 import RenderArrays from "./RenderArrays";
 import JokesData from "./Jokes/JokesData";
+import TravelData from "./TravelJournal/Data";
 function App() {
-    const jokes = JokesData.map((joke)=> {
-        return <MyJokes setup={joke.setup} punchline={joke.punchline} />
-});
+    
+const travelElement = TravelData.map((data)=>{
+    return <Entry
+    key = {data.id}
+    id={data.id}
+    src = {data.img.src}
+    alt = {data.img.alt}
+    title={data.title}
+    country={data.country}
+    googleMapsUrl={data.googleMapsUrl}
+    date={data.date}
+    description={data.description}
+       />;
+})    
 
 return(
 <>
-{jokes}
-
-{/* <RenderArrays/> */}
-{/* <PracticeMap /> */}
-{/* <PracticeMap />
 <HeaderTravel/>
-<Entry src={fuji} alt="Mount Fuji"
-title="Mount Fuji"
-date="12 Jan, 2021 - 24 Jan, 2021"
-country="JAPAN"
-description="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,389 feet). It is an active stratovolcano that last erupted in 1707-1708. Mount Fuji is a popular destination for tourists and climbers, known for its symmetrical cone shape and cultural significance."
+{travelElement}
 
-
-/> */}
 
 </>
 );
@@ -47,3 +48,16 @@ export default App
 <MyJokes serial={7} isItFunny={true} punchline="I threw a boomerang a few years ago. I now live in constant fear." />
 <MyJokes serial={8} isItFunny={true} punchline="Why don’t skeletons fight each other? They don’t have the guts." />
 <MyJokes serial={9} isItFunny={true} punchline="What do you call cheese that isn't yours? Nacho cheese." />*/
+
+{/* <RenderArrays/> */}
+{/* <PracticeMap /> */}
+{/* <PracticeMap />
+<HeaderTravel/>
+<Entry src={fuji} alt="Mount Fuji"
+title="Mount Fuji"
+date="12 Jan, 2021 - 24 Jan, 2021"
+country="JAPAN"
+description="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,389 feet). It is an active stratovolcano that last erupted in 1707-1708. Mount Fuji is a popular destination for tourists and climbers, known for its symmetrical cone shape and cultural significance."
+
+
+/> */}
