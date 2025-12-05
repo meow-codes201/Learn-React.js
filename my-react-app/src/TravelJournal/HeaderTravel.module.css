@@ -1,0 +1,23 @@
+
+.hr1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f55a5a;
+    height: 100px;
+    display: flex ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* font-size: 50px; */
+    /* padding-top: 30px; */
+
+
+}
+.hr1 > h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    font-weight: bold;
+}
