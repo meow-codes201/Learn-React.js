@@ -1,0 +1,28 @@
+.serial{
+    font-weight: bold;
+    font-size: 1.4rem;
+    /* display: inline; */
+}
+.myJoke{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: black;
+    background-color:rgb(185, 243, 252);
+    font-size: 1.4rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+font-family:'Happy Monkey', cursive;
+}
+
+.setup{
+    /* display: inline; */
+    font-weight: bold;
+    margin-left: 5px;
+}
+.punchline{
+    margin-left: 15px;
+    font-style: italic;
+    font-weight: bolder;
+}
