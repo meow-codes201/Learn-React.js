@@ -1,0 +1,23 @@
+.myHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;  
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);   
+   gap: 11px;  
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.myLogo{
+    height: 60px;
+    width:45px;
+    border-radius: 50%;
+    
+}
+.myTitle{
+
+    color: #333333;
+    font-size: 34px;
+    margin: 0;
+    
+}
