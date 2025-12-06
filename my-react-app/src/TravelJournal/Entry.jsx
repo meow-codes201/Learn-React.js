@@ -1,16 +1,26 @@
-import fouji from "./Mt._Fuji.jpg"
-import marker from "./marker.png"
-function Entry(){
+// import fouji from "./Mt._Fuji.jpg"
+import marker from "./myMarker.jpg"
+import styles from "./Entry.module.css"
+function Entry(props){
 
-return(
-    <article>
-        <img src={fouji} alt="Mount Fuji" />
-        <div>
-            <img src={marker} alt="" />
-            <span>Japan</span>
-            <a target="_blank" href="https://maps.app.goo.gl/hz4cWfUyGue7o1Xw6">View on google maps</a>
+return(<>
+
+
+    <article className={styles.journalEntry}>
+        <div className={styles.container}>
+            <img src={props.src} alt={props.alt} className={styles.img1} />
+        </div>
+        <div className="my-div">
+            <img src={marker} alt="marker" className={styles.marker} />
+            <span>{props.country}</span>
+            <a className={styles.anchor} target="_blank" href={props.googleMapsUrl}>View on google maps</a>
+            <h2 className={styles.title}>{props.title}</h2>
+            <p className={styles.date}>{props.date}</p>
+            <p className={styles.description}>{props.description}</p>
+
         </div>
     </article>
+    </>
 )
 }
 
