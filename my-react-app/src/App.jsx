@@ -29,7 +29,7 @@ const travelElement = TravelData.map((data)=>{
 
 return(
 <>
-<HeaderTravel/>
+<HeaderTravel/>*
 {travelElement}
 
 
